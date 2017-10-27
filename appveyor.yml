@@ -14,10 +14,10 @@ install:
 # Post-Install test scripts
 test_script:
   # Output useful info for debugging
-  -node --version
-  -npm --version
+  - node --version
+  - npm --version
   # Run test
-  -npm test
+  - npm test
 
 # Don't actually build
 build: off
